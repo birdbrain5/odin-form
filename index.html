@@ -9,9 +9,7 @@
 </head>
 <body style="margin:0px">
     <main class="main">
-        <div id="left">
-
-        </div>
+        <div id="left"></div>
         <div id="right">
             <div id="right-1">
                 <p>
@@ -23,7 +21,41 @@
                 </p>
             </div>
             <div id="form-box">
+                <form id="form">
 
+                    <div style="flex-grow:1;">
+                        <div class="form-item">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="First Name">
+                        </div>
+                        <div class="form-item">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="Last Name">
+                        </div>
+                        <div class="form-item"> 
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="Email">
+                        </div>
+                    </div>
+
+                    <div style="flex-grow:1;">
+                        <div class="form-item">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="text" id="phone-number" name="Phone Number">
+                        </div>
+    
+                        <div class="form-item">
+                            <label for="password">Password</label>
+                            <input type="text" id="password" name="Password">
+                        </div>
+    
+                        <div class="form-item">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="text" id="confirm-password" name="Confirm Password">
+                        </div>
+                    </div>
+                    
+                </form>
             </div>
             <div id="right-2">
                 <div class='button'>Create Account</div>

@@ -50,7 +50,18 @@
     border-radius:1em;
 }
 
+#form{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+}
 
+.form-item{
+    display:flex;
+    flex-direction:column;
+    padding:1em 1em 1em 1em;
+}
 
 /*CSS Reset*/
 
